@@ -1,9 +1,9 @@
-/*body {
-	background-color: #F2F2F2;
-}*/
+body {
+	overflow-x: hidden;
+}
+
 h1 {
 	color: #3E5266;
-	/*float: left;*/
 }
 
 h1, h2 {
@@ -20,7 +20,7 @@ ul {
 	clear: right;
 	overflow: hidden;
 	/*float: right;*/
-	/*width: 80%;*/
+	width: 80%;
 	padding: 2em 0;
 }
 
@@ -28,6 +28,18 @@ ul li {
 	width: 33%;
 	float: left;
 	text-align: center;
+	font-size: 1.3em;
+}
+ul li a {
+	color: #201E1C !important;
+	text-decoration: none;
+	opacity: 1;
+}
+
+ul li a:hover {
+	/*color: #201E1C !important;*/
+	text-decoration: none;
+	opacity: 0.6;
 }
 
 .row {
@@ -48,14 +60,19 @@ ul li {
 }
 
 .package-wrapper {
-	background-color: #F2F2F2;
+	background-color: #DEEBF7;
 	overflow: hidden;
 	padding: 1em 0;
 	border-radius: 5px;
 }
 
 .item {
-	padding: 0.5em 1.5em 1.5em;
+	padding: 1.5em;
+	padding-top: 0;
+}
+
+.item h4 {
+	color: #798FA3;
 }
 
 .item img {
