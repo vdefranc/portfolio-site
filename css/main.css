@@ -1,0 +1,23 @@
+h1, h2 {
+	text-align: center;
+	clear: both;
+}
+
+h3 {
+	margin-left: 15px;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	width: 50%;
+	margin: 0 auto;
+	clear: right;
+	overflow: hidden;
+}
+
+ul li {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
