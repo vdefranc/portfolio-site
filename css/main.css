@@ -1,5 +1,12 @@
+/*body {
+	background-color: #F2F2F2;
+}*/
+h1 {
+	color: #3E5266;
+	/*float: left;*/
+}
+
 h1, h2 {
-	text-align: center;
 	clear: both;
 }
 
@@ -10,10 +17,12 @@ h3 {
 ul {
 	padding: 0;
 	list-style: none;
-	width: 50%;
 	margin: 0 auto;
 	clear: right;
 	overflow: hidden;
+	/*float: right;*/
+	width: 40%;
+	padding: 2em 0;
 }
 
 ul li {
@@ -30,9 +39,16 @@ ul li {
 .row:last-of-type {
 	margin-bottom: 3em;
 }
+
+.item {
+	padding: 1.5em;
+}
+
 .item img {
-	opacity:0.9;
 	width: 100%;
+	border-radius: 4px;
+
+	opacity:0.9;
 	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
 	-moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
 	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
@@ -46,6 +62,6 @@ ul li {
 .item img:hover {
 	opacity: 1;
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0); 
-       -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0); 
-            box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0); 
+	box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0);
 }
