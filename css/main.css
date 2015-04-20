@@ -6,6 +6,21 @@ h1 {
 	color: #3E5266;
 }
 
+.container {
+	width: auto !important;
+	margin: 0 auto;
+	max-width: 1450px;
+}
+
+/*.portfolio-container:before {
+	display: table;
+	content: '';
+}
+.portfolio-container:after {
+	display: table;
+	content: '';
+}*/
+
 .contact-menu {
 	background-color: #eee;
 	border-radius: 4px;
@@ -25,6 +40,9 @@ h1 {
 }
 
 @media (max-width: 768px) {
+	.row {
+		padding: 0;
+	}
 	header {
 		text-align: center;
 	}
@@ -60,7 +78,10 @@ span.nowrap {
 	white-space: nowrap;
 }
 .row {
-	margin-bottom: 1em;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+	margin-bottom: 0.3em;
+	/*padding: 0 2em;*/
 }
 .row:last-of-type {
 	margin-bottom: 2em;
