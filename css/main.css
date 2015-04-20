@@ -21,3 +21,31 @@ ul li {
 	float: left;
 	text-align: center;
 }
+
+.row {
+	padding: 0 2em;
+	margin-bottom: 1em;
+}
+
+.row:last-of-type {
+	margin-bottom: 3em;
+}
+.item img {
+	opacity:0.9;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+
+	-webkit-transition: all .2s; 
+	-moz-transition: all .2s; 
+	-o-transition: all .2s; 
+	transition: all .2s;
+}
+
+.item img:hover {
+	opacity: 1;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0); 
+       -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0); 
+            box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 1.0);
+}
